@@ -9,7 +9,7 @@ for i in range(n):
     x2 += offset
 
     for j in range(x1, x2):
-        arr[offset + j] += 1
+        arr[j] += 1
 
 max_value = max(arr)
 print(max_value)
